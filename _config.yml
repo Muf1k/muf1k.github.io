@@ -1,8 +1,4 @@
 remote_theme: pages-themes/midnight@v0.2.0
 title: [Mufik’s Shoebox]
-description: [Welcome to my site Vítej na mé stránce]
-links:
-  - name: Steam
-    url: [google.com]
-  - name: GitHub
-    url: [https://google.com]
+description: [Welcome on my site]
+youtube_mufik: "https://www.youtube.com/@MyBlueMufik"

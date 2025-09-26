@@ -3,6 +3,6 @@ title: [Mufik’s Shoebox]
 description: [Welcome to my site Vítej na mé stránce]
 links:
   - name: Steam
-    url: "google.com"
+    url: [google.com]
   - name: GitHub
-    url: "https://google.com"
+    url: [https://google.com]

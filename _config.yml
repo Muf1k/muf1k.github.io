@@ -1,6 +1,8 @@
 remote_theme: pages-themes/midnight@v0.2.0
 title: [Mufik’s Hideaway]
 description: [nothing]
-links: 
--name: [my steam]
--link: [https://www.google.com]
+links:
+  - name: Steam
+    url: "google.com"
+  - name: GitHub
+    url: "https://google.com"

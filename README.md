@@ -1,7 +1,5 @@
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center; gap: 40px; align-items: center;">
   <a href="https://muf1k.github.io/CZ">🇨🇿</a>
-  <span style="margin-left: 120px;"></span>
   <a href="https://muf1k.github.io/EN">🇬🇧</a>
-   <span style="margin-left: 120px;"></span>
   <a href="https://muf1k.github.io/moonlight30th">🌙30</a>
 </div>

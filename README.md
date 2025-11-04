@@ -1,1 +1,3 @@
-[🇨🇿](https://muf1k.github.io/CZ)&nbsp;&nbsp;&nbsp;&nbsp;[🇬🇧](https://muf1k.github.io/EN)
+<a href="https://mufik.github.io/CZ">🇨🇿</a>
+<span style="margin-left: 40px;"></span>
+<a href="https://mufik.github.io/EN">🇬🇧</a>

@@ -4,6 +4,26 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mufik's Home</title>
+<script>
+  // Detects the browser's language and swaps translatable text accordingly.
+  // Add more keys here later if you translate additional text on the page.
+  const translations = {
+    en: {
+      title: "Mufik's Home",
+      bio: "Hi, I'm Jacob — from Czechia, learning HTML one page at a time."
+    },
+    cs: {
+      title: "Mufikův domov",
+      bio: "Ahoj, jsem Jakub — z Česka, učím se HTML jednu stránku za druhou."
+    }
+  };
+  const browserLang = (navigator.language || navigator.userLanguage || "en").toLowerCase();
+  const lang = browserLang.startsWith("cs") ? "cs" : "en";
+  document.title = translations[lang].title;
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("bio").textContent = translations[lang].bio;
+  });
+</script>
 <link rel="icon" type="image/x-icon" href="/images/original.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -172,10 +192,10 @@
   <div class="prompt"><span class="user">guest</span>@<span class="path">muf1k</span>:~$<span class="cursor"></span></div>
 
   <div class="header-row">
-    <img src="/images/original.png" alt="Mufik avatar" class="avatar">
+    <img src="/images/original.ico" alt="Mufik avatar" class="avatar">
     <h1>Muf<span>1</span>k</h1>
   </div>
-  <p class="tagline">
+  <p class="tagline" id="bio">
     Hi, I'm Jacob — from Czechia, learning HTML one page at a time.
   </p>
 
@@ -194,8 +214,7 @@
   </a>
 
   <nav>
-    <a href="https://muf1k.github.io/CZ"><span class="emoji">🇨🇿</span> Česky</a>
-    <a href="https://muf1k.github.io/EN"><span class="emoji">🇬🇧</span> English</a>
+    <a href="https://muf1k.github.io/about"><span class="emoji">🇨🇿 🇬🇧</span> About me</a>
     <a href="https://muf1k.github.io/chess"><span class="emoji">♟️</span> Chess <span style="color:var(--muted); font-weight:400;">— beta</span></a>
     <a href="https://muf1k.github.io/games"><span class="emoji">🎮</span> Games to try</a>
   </nav>
